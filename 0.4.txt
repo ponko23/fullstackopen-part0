@@ -1,4 +1,4 @@
-browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note\nForm Data{ note: "new note" }end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note\nForm Data{ note: "new note" }
 
 note over server
 server creates a new note object,
