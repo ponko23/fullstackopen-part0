@@ -1,0 +1,16 @@
+note over browser:
+browser starts executing js-code
+prevent the default handling of form submit
+creates a new note, adds it to the notes list
+that renders note to display
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa\nJson Data{ content: "new note", date: "2019-09-06T01:34:46:0112" }
+
+note over server
+server creates a new note object,
+and adds it to an array called
+end note
+
+server-->browser: HTTP status 201\n{"message":"note created"}
+
